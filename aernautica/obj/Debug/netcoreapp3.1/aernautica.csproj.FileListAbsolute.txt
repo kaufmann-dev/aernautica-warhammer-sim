@@ -1,0 +1,13 @@
+/home/guanyu/RiderProjects/aernautica/aernautica/bin/Debug/netcoreapp3.1/aernautica
+/home/guanyu/RiderProjects/aernautica/aernautica/bin/Debug/netcoreapp3.1/aernautica.deps.json
+/home/guanyu/RiderProjects/aernautica/aernautica/bin/Debug/netcoreapp3.1/aernautica.runtimeconfig.json
+/home/guanyu/RiderProjects/aernautica/aernautica/bin/Debug/netcoreapp3.1/aernautica.runtimeconfig.dev.json
+/home/guanyu/RiderProjects/aernautica/aernautica/bin/Debug/netcoreapp3.1/aernautica.dll
+/home/guanyu/RiderProjects/aernautica/aernautica/bin/Debug/netcoreapp3.1/aernautica.pdb
+/home/guanyu/RiderProjects/aernautica/aernautica/obj/Debug/netcoreapp3.1/aernautica.csprojAssemblyReference.cache
+/home/guanyu/RiderProjects/aernautica/aernautica/obj/Debug/netcoreapp3.1/aernautica.AssemblyInfoInputs.cache
+/home/guanyu/RiderProjects/aernautica/aernautica/obj/Debug/netcoreapp3.1/aernautica.AssemblyInfo.cs
+/home/guanyu/RiderProjects/aernautica/aernautica/obj/Debug/netcoreapp3.1/aernautica.csproj.CoreCompileInputs.cache
+/home/guanyu/RiderProjects/aernautica/aernautica/obj/Debug/netcoreapp3.1/aernautica.dll
+/home/guanyu/RiderProjects/aernautica/aernautica/obj/Debug/netcoreapp3.1/aernautica.pdb
+/home/guanyu/RiderProjects/aernautica/aernautica/obj/Debug/netcoreapp3.1/aernautica.genruntimeconfig.cache
