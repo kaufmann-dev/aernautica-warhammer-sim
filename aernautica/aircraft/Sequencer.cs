@@ -1,4 +1,4 @@
-namespace aernautica {
+namespace aernautica.aircraft {
     public class Sequencer {
         
         private static Sequencer INSTANCE  = new Sequencer();

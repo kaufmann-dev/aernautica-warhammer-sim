@@ -1,14 +1,13 @@
 using System;
 using System.Collections.Generic;
 
-namespace aernautica {
+namespace aernautica.core {
     public class Dice {
         private static Dice INSTANCE = new Dice();
 
         private Random _random = new Random();
-        
+
         private Dice() {
-            
         }
 
         public static Dice GetInstance() {
@@ -16,7 +15,10 @@ namespace aernautica {
         }
 
         public int Roll() {
-            return _random.Next(1, 7);
+            int result = _random.Next(1, 7);
+            Logger.GetInstance().Info("dice result: " + result);
+
+            return result;
         }
 
         public Stack<int> RollDices(int amount) {
@@ -25,9 +27,8 @@ namespace aernautica {
             for (int i = 0; i < amount; i++) {
                 results.Push(Roll());
             }
-            
+
             return results;
         }
-        
     }
 }

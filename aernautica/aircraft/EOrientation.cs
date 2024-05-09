@@ -1,5 +1,5 @@
-namespace aernautica {
+namespace aernautica.aircraft {
     public enum EOrientation {
-        NORTH, SOUTH, WEST, EAST
+        NORTH, SOUTH, WEST, EAST,VOID
     }
 }

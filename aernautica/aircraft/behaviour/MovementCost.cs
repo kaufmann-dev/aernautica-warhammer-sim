@@ -1,4 +1,4 @@
-namespace aernautica {
+namespace aernautica.aircraft.behaviour {
     public class MovementCost {
         
         private readonly int _speed;

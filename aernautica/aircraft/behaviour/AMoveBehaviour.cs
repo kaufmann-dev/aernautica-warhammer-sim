@@ -1,4 +1,6 @@
-namespace aernautica {
+using aernautica.core;
+
+namespace aernautica.aircraft.behaviour {
     public abstract class AMoveBehaviour : IMoveBehaviour {
 
         protected AAircraft _aircraft;

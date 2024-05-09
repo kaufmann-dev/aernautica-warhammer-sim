@@ -11,3 +11,17 @@
 /home/guanyu/RiderProjects/aernautica/aernautica/obj/Debug/netcoreapp3.1/aernautica.dll
 /home/guanyu/RiderProjects/aernautica/aernautica/obj/Debug/netcoreapp3.1/aernautica.pdb
 /home/guanyu/RiderProjects/aernautica/aernautica/obj/Debug/netcoreapp3.1/aernautica.genruntimeconfig.cache
+G:\Meine Ablage\School\HTL Krems\3AHIT 9 20-6 21\SEW\aernautica\aernautica2\aernautica\bin\Debug\netcoreapp3.1\aernautica.exe
+G:\Meine Ablage\School\HTL Krems\3AHIT 9 20-6 21\SEW\aernautica\aernautica2\aernautica\bin\Debug\netcoreapp3.1\aernautica.deps.json
+G:\Meine Ablage\School\HTL Krems\3AHIT 9 20-6 21\SEW\aernautica\aernautica2\aernautica\bin\Debug\netcoreapp3.1\aernautica.runtimeconfig.json
+G:\Meine Ablage\School\HTL Krems\3AHIT 9 20-6 21\SEW\aernautica\aernautica2\aernautica\bin\Debug\netcoreapp3.1\aernautica.runtimeconfig.dev.json
+G:\Meine Ablage\School\HTL Krems\3AHIT 9 20-6 21\SEW\aernautica\aernautica2\aernautica\bin\Debug\netcoreapp3.1\aernautica.dll
+G:\Meine Ablage\School\HTL Krems\3AHIT 9 20-6 21\SEW\aernautica\aernautica2\aernautica\bin\Debug\netcoreapp3.1\aernautica.pdb
+G:\Meine Ablage\School\HTL Krems\3AHIT 9 20-6 21\SEW\aernautica\aernautica2\aernautica\obj\Debug\netcoreapp3.1\aernautica.GeneratedMSBuildEditorConfig.editorconfig
+G:\Meine Ablage\School\HTL Krems\3AHIT 9 20-6 21\SEW\aernautica\aernautica2\aernautica\obj\Debug\netcoreapp3.1\aernautica.AssemblyInfoInputs.cache
+G:\Meine Ablage\School\HTL Krems\3AHIT 9 20-6 21\SEW\aernautica\aernautica2\aernautica\obj\Debug\netcoreapp3.1\aernautica.AssemblyInfo.cs
+G:\Meine Ablage\School\HTL Krems\3AHIT 9 20-6 21\SEW\aernautica\aernautica2\aernautica\obj\Debug\netcoreapp3.1\aernautica.csproj.CoreCompileInputs.cache
+G:\Meine Ablage\School\HTL Krems\3AHIT 9 20-6 21\SEW\aernautica\aernautica2\aernautica\obj\Debug\netcoreapp3.1\aernautica.sourcelink.json
+G:\Meine Ablage\School\HTL Krems\3AHIT 9 20-6 21\SEW\aernautica\aernautica2\aernautica\obj\Debug\netcoreapp3.1\aernautica.dll
+G:\Meine Ablage\School\HTL Krems\3AHIT 9 20-6 21\SEW\aernautica\aernautica2\aernautica\obj\Debug\netcoreapp3.1\aernautica.pdb
+G:\Meine Ablage\School\HTL Krems\3AHIT 9 20-6 21\SEW\aernautica\aernautica2\aernautica\obj\Debug\netcoreapp3.1\aernautica.genruntimeconfig.cache

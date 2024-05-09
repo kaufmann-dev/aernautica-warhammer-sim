@@ -1,4 +1,6 @@
-namespace aernautica {
+using aernautica.core;
+
+namespace aernautica.aircraft {
     public class ImperialisAircraft : AAircraft {
         public ImperialisAircraft(int id, string name, int pointCost, int structure, 
             int minSpeed, int maxSpeed, int manoeuver, int throttle, int handling, int maxAltitude) : 

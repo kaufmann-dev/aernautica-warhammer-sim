@@ -1,5 +1,5 @@
-namespace aernautica {
+namespace aernautica.aircraft {
     public enum ERangeType {
-        SHORT, MEDIUM, LONG
+        SHORT, MEDIUM, LONG, INVALID
     }
 }

@@ -1,4 +1,6 @@
-namespace aernautica {
+using aernautica.core;
+
+namespace aernautica.aircraft.behaviour {
     public class SpinMoveBehaviour : AMoveBehaviour {
         public SpinMoveBehaviour(AAircraft aircraft) : base(aircraft) {
         }

@@ -1,6 +1,49 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=dc2b2c4f_002D74c2_002D4713_002Db6bb_002Df5c57cbc2fe5/@EntryIndexedValue">&lt;SessionState ContinuousTestingIsOn="False" ContinuousTestingMode="0" FrameworkVersion="{x:Null}" IsLocked="False" Name="Test1" PlatformMonoPreference="{x:Null}" PlatformType="{x:Null}" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=40947646_002D4817_002D457e_002Db77a_002Decf25dc09d47/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestIsNeighbour" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.PointTests.TestIsNeighbour&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.MoveBehaviourTest.TestAircraftMove&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=612e72f7_002Dcbd6_002D415f_002Da5dc_002D7720c2c7035f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TestAddAircraft" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.PlayerUnitTest.TestAddAircraft&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.LinqUnitTest.FleetQueries&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=dc2b2c4f_002D74c2_002D4713_002Db6bb_002Df5c57cbc2fe5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.PointTests.Test1&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.AircraftUnitTest.Test1&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.AircraftUnitTest.TestVulture&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.AircraftUnitTest.TestGrotBomma&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.AircraftUnitTest.TestBlueDevil&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.AircraftUnitTest.TestBlueHellion&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.AircraftUnitTest.TestBlueExecutioner&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.WeaponUnitTest.TestBigShoota&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.WeaponUnitTest.TestTurretBigShoota&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.WeaponUnitTest.TestTailGun&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.WeaponUnitTest.TestPortTurret&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.WeaponUnitTest.TestStarboardTurret&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.WeaponUnitTest.TestLascannon&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.WeaponUnitTest.TestDoraslTurret&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.WeaponUnitTest.TestTwinMultilaser&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.WeaponUnitTest.TestTwinLascannon&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.WeaponUnitTest.TestQuadAutocannon&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.PointTests.TestIsNeighbour&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.PointTests.TestIsDirectNeighbour&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.MoveBehaviourTest.TestCalculateMoveCost&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.PointTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.MoveBehaviourTest.TestAircraftMove&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.MoveBehaviourTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.CommandUnitTest.TestBigBurna&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.PlayerUnitTest.TestAddAircraft&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.AircraftUnitTest.TestBigBurna&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.AircraftUnitTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.CommandUnitTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.PlayerUnitTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.WeaponUnitTest&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.LinqUnitTest.FleetQueries&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE::.NETCoreApp,Version=v3.1::aernautica.unittest.LinqUnitTest&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

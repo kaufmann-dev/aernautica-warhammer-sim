@@ -1,7 +1,6 @@
-using System;
 using System.Collections.Generic;
 
-namespace aernautica {
+namespace aernautica.aircraft {
     public class WeaponFactory {
 
         

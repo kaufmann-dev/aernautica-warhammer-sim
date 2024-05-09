@@ -1,10 +1,13 @@
 using System.Collections.Generic;
 using System.Linq;
+using aernautica.aircraft;
 
-namespace aernautica {
+namespace aernautica.core {
     public class Player {
         
         private readonly List<AAircraft> _fleet = new List<AAircraft>();
+        
+        private readonly List<AAircraft> _destroyedShips = new List<AAircraft>();
 
         private readonly EPlayerType _playerType;
 
@@ -20,15 +23,25 @@ namespace aernautica {
             set => _name = value;
         }
 
+        public List<AAircraft> DestroyedShips => _destroyedShips;
+
+        public List<AAircraft> Fleet => _fleet;
+
         public Player(string name, EPlayerType playerType, int maxFleetCost) {
             _playerType = playerType;
             _maxFleetCost = maxFleetCost;
             _name = name;
         }
 
-        public void AddAircraft(AAircraft aircraft) {
-            if(aircraft != null && IsValid(aircraft: aircraft))
+        public bool AddAircraft(AAircraft aircraft) {
+            if (aircraft != null && IsValid(aircraft: aircraft)) {
+                aircraft.Player = this;
                 _fleet.Add(aircraft);
+
+                return true;
+            }
+
+            return false;
         }
         
         private bool IsValid(AAircraft aircraft) {
@@ -48,6 +61,10 @@ namespace aernautica {
 
         public int CalculateFleetCost() {
             return (from a in _fleet select a.PointCost).Sum();
+        }
+
+        public int CalculateVictoryPoints() {
+            return (from a in _destroyedShips select a.PointCost).Sum();
         }
     }
 }

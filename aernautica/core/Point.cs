@@ -1,7 +1,8 @@
 using System;
 using System.Collections.Generic;
+using aernautica.aircraft;
 
-namespace aernautica {
+namespace aernautica.core {
     public class Point {
         private int _x;
         private int _y;
@@ -94,6 +95,26 @@ namespace aernautica {
 
         public bool HasDirectConnection(Point destination) {
             return X == destination.X || Y == destination.Y;
+        }
+
+        public int CalculateDistance(Point destination) {
+            return (int)Math.Sqrt(Math.Pow(destination.X - X, 2) + Math.Pow(destination.Y - Y, 2) + Math.Pow(destination.Z - Z, 2));
+        }
+
+        public EOrientation CalculateBearing(Point destination) {
+            if (destination.Y > Y)
+                return EOrientation.SOUTH;
+            
+            if (destination.Y < Y)
+                return EOrientation.NORTH;
+
+            if (destination.X > X)
+                return EOrientation.WEST;
+            
+            if (destination.X < X)
+                return EOrientation.EAST;
+            
+            return EOrientation.VOID;
         }
 
         public override string ToString() {

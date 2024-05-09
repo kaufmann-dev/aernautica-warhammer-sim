@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-namespace aernautica {
+namespace aernautica.core {
     public class Logger {
         private static Logger INSTANCE = new Logger();
 

@@ -1,4 +1,7 @@
-namespace aernautica {
+using aernautica.aircraft;
+using aernautica.core;
+
+namespace aernautica.command {
     public class PlaceAircraftCommand : ICommand {
 
         private readonly AAircraft _aircraft;

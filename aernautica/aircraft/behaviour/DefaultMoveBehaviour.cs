@@ -1,6 +1,7 @@
 using System.Collections.Generic;
+using aernautica.core;
 
-namespace aernautica {
+namespace aernautica.aircraft.behaviour {
     public class DefaultMoveBehaviour : AMoveBehaviour {
         public DefaultMoveBehaviour(AAircraft aircraft) : base(aircraft) {
         }

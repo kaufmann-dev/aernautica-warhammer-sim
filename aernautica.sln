@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aernautica", "aernautica\aernautica.csproj", "{2066CBF5-C79E-4CCF-93C5-3278A17ED502}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aernautica.unittest", "aernautica.unittest\aernautica.unittest.csproj", "{0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{2066CBF5-C79E-4CCF-93C5-3278A17ED502}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2066CBF5-C79E-4CCF-93C5-3278A17ED502}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2066CBF5-C79E-4CCF-93C5-3278A17ED502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AD5AE54-6728-47A3-9758-C2A2CDB8B2CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

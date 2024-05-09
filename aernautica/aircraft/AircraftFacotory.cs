@@ -1,4 +1,6 @@
-namespace aernautica {
+using System.Collections.Generic;
+
+namespace aernautica.aircraft {
     public class AircraftFacotory {
         public static AAircraft CreateBigBurna() {
             OrcAircraft aircraft = new OrcAircraft(
@@ -6,9 +8,10 @@ namespace aernautica {
                 "Big Burna", 22,3,
                 3, 7, 4, 2, 4, 4);
 
-            aircraft[EWeaponType.QUAD_BIG_SHOOTA] = WeaponFactory.CreateQuadBigShoota();
-            aircraft[EWeaponType.TURRET_BIG_SHOOTA] = WeaponFactory.CreateTurretBigShoota();
-            aircraft[EWeaponType.TAIL_GUN] = WeaponFactory.CreateTailGun();
+            aircraft[EFireDirection.FRONT] = new List<Weapon>(){WeaponFactory.CreateQuadBigShoota()};
+            aircraft[EFireDirection.REAR] = new List<Weapon>(){WeaponFactory.CreateTurretBigShoota(), WeaponFactory.CreateTailGun()};
+            aircraft[EFireDirection.LEFT_SIDE] = new List<Weapon>(){WeaponFactory.CreateTurretBigShoota()};
+            aircraft[EFireDirection.RIGHT_SIDE] = new List<Weapon>(){WeaponFactory.CreateTurretBigShoota()};
 
             return aircraft;
         }
@@ -20,7 +23,10 @@ namespace aernautica {
                 3, 8, 5, 2, 3, 4
             );
 
-            aircraft[EWeaponType.QUAD_BIG_SHOOTA] = WeaponFactory.CreateQuadBigShoota();
+            aircraft[EFireDirection.FRONT] = new List<Weapon>(){WeaponFactory.CreateQuadBigShoota()};
+            aircraft[EFireDirection.REAR] = new List<Weapon>();
+            aircraft[EFireDirection.LEFT_SIDE] = new List<Weapon>();
+            aircraft[EFireDirection.RIGHT_SIDE] = new List<Weapon>();
 
             return aircraft;
         }
@@ -32,9 +38,10 @@ namespace aernautica {
                 4, 3, 1, 5, 4
             );
 
-            aircraft[EWeaponType.QUAD_BIG_SHOOTA] = WeaponFactory.CreateQuadBigShoota();
-            aircraft[EWeaponType.PORT_TURRET] = WeaponFactory.CreatePortTurret();
-            aircraft[EWeaponType.STARBOARD_TURRET] = WeaponFactory.CreateStarboardTurret();
+            aircraft[EFireDirection.FRONT] = new List<Weapon>(){WeaponFactory.CreateQuadBigShoota()};
+            aircraft[EFireDirection.REAR] = new List<Weapon>(){};
+            aircraft[EFireDirection.LEFT_SIDE] = new List<Weapon>(){WeaponFactory.CreatePortTurret()};
+            aircraft[EFireDirection.RIGHT_SIDE] = new List<Weapon>(){WeaponFactory.CreateStarboardTurret()};
 
             return aircraft;
         }
@@ -47,9 +54,11 @@ namespace aernautica {
                 3, 5
             );
 
-            aircraft[EWeaponType.LASCANNON] = WeaponFactory.CreateLascannon();
-            aircraft[EWeaponType.DORSAL_TURRET] = WeaponFactory.CreateDorsalTurret();
-            aircraft[EWeaponType.REAR_TURRET] = WeaponFactory.CreateRearTurret();
+            aircraft[EFireDirection.FRONT] = new List<Weapon>(){WeaponFactory.CreateLascannon(), WeaponFactory.CreateDorsalTurret()};
+            aircraft[EFireDirection.REAR] = new List<Weapon>(){WeaponFactory.CreateDorsalTurret(), WeaponFactory.CreateRearTurret()};
+            aircraft[EFireDirection.LEFT_SIDE] = new List<Weapon>(){WeaponFactory.CreateDorsalTurret()};
+            aircraft[EFireDirection.RIGHT_SIDE] = new List<Weapon>(){WeaponFactory.CreateDorsalTurret()};
+ 
 
             return aircraft;
         }
@@ -60,7 +69,10 @@ namespace aernautica {
                 "Hellion", 26, 2, 2,
                 8, 7, 3, 2, 5);
 
-            aircraft[EWeaponType.TWIN_MULIT_LASER] = WeaponFactory.CreateTwinMultilaser();
+            aircraft[EFireDirection.FRONT] = new List<Weapon>(){WeaponFactory.CreateTwinMultilaser()};
+            aircraft[EFireDirection.REAR] = new List<Weapon>(){};
+            aircraft[EFireDirection.LEFT_SIDE] = new List<Weapon>(){};
+            aircraft[EFireDirection.RIGHT_SIDE] = new List<Weapon>(){};
 
             return aircraft;
         }
@@ -71,8 +83,10 @@ namespace aernautica {
                 "Executioner", 23, 3, 2,
                 7, 6, 2, 3, 5);
 
-            aircraft[EWeaponType.QUAD_AUTOCANNON] = WeaponFactory.CreateQuadAutocannon();
-            aircraft[EWeaponType.TWIN_LASCANNON] = WeaponFactory.CreateTwinLascannon();
+            aircraft[EFireDirection.FRONT] = new List<Weapon>(){WeaponFactory.CreateQuadAutocannon(), WeaponFactory.CreateTwinLascannon()};
+            aircraft[EFireDirection.REAR] = new List<Weapon>();
+            aircraft[EFireDirection.LEFT_SIDE] = new List<Weapon>();
+            aircraft[EFireDirection.RIGHT_SIDE] = new List<Weapon>();
 
             return aircraft;
         }

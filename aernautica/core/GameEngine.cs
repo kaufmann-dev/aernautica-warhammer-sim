@@ -1,9 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using aernautica.aircraft;
 using aernautica.command;
 
-namespace aernautica {
+namespace aernautica.core {
     public class GameEngine {
         
         private static GameEngine INSTANCE = new GameEngine();
